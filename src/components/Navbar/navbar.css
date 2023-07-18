@@ -1,0 +1,38 @@
+.navbar{
+    background-color: white;
+    display: flex;
+    height: 70px;
+    width: 100%;
+    align-items: center;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px; */
+    position: sticky;
+    top: 0;
+}
+
+.navbar_logo{
+    flex: 1;
+    display: flex;
+}
+.navbar_logo img{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 80px;
+    
+}
+
+.navbar_links{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 56px;
+    margin-right: 200px;
+    color: var(--primary-color);
+    
+}
+.navbar_links li{
+    cursor: pointer;
+    font-weight: 600;
+    line-height: 20px;
+    font-size: 20px;
+}

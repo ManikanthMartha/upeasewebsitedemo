@@ -1,0 +1,33 @@
+.content_container{
+    align-items: center;
+    margin-top: 60px;
+}
+
+.content_header{
+    font-size: 4.5rem;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    font-family: var(--ubuntu-mono);
+    color: #002832;
+}
+
+.content_info{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+.product{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+}
+.product_image img{
+    height: 40%;
+    width: auto;
+    border-radius: 25px;
+
+}
