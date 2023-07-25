@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Footer.css'; // Assuming you have the CSS styles defined in the Footer.css file
+import './Footer.css'; 
 import { Select, MenuItem } from '@mui/material';
 import linkedin from './../../assets/linkedin.png';
 import instagram from './../../assets/instagram.png';
