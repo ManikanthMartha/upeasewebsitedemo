@@ -11,6 +11,7 @@ import bg4 from './assets/bgg4.svg'
 import { Route, Routes } from 'react-router-dom'
 import Cta from './layouts/CTA/Cta'
 import Stats from './layouts/Stats/Stats'
+import Footer from './layouts/Footer/footer'
 import Navbar from './components/Navbar/Navbar'
 
 
@@ -30,6 +31,9 @@ const App = () => {
       </section>
       <section id='contactus' style={{backgroundImage : `url(${bg4})`, backgroundRepeat : 'no-repeat', backgroundSize : 'cover'}}>
         <Cta></Cta>
+      </section>
+      <section id='footer' style={{backgroundImage : `url(${bg3})`, backgroundRepeat : 'no-repeat', backgroundSize : 'cover'}}>
+        <Footer> </Footer>
       </section>
     </div>
   )

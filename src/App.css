@@ -8,6 +8,10 @@
   overflow: hidden;
 }
 #stats{
-  height: 100vh;
+  height: 180vh;
+  
+}
+#footer{
+  height: 80vh;
   
 }

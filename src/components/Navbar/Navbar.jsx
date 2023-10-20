@@ -13,6 +13,7 @@ const Navbar = () => {
           <li><a href='/#whyupease'>Why Upease</a></li>
           <li><a href='#home'>Solutions</a></li>
           <li><a href='#home'>About Us</a></li>
+          <li><a href='#stats'>Stats</a></li>
         </ul>     
     </nav>
   )
